@@ -75,13 +75,13 @@ namespace DriveNation
             {
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<RentACarUser>>();
 
-                string email = "admin.adminov2@gmail.com";
-                string progileName = "AdminAdminov32562";
-                string firstname = "Admin2";
-                string lastname = "Adminov2";
-                string password = "1qaz@WSX3edc$RFV2";
+                string email = "lorakostova_b19@schoolmath.eu";
+                string progileName = "lorakostova";
+                string firstname = "Lora";
+                string lastname = "Kostova";
+                string password = "1W3erfd$@!q";
                 string personal_id = "0525746542";
-                string phone = "+359918273642";
+                string phone = "+359877648854";
 
                 if (await userManager.FindByEmailAsync(email) == null)
                 {
@@ -106,11 +106,11 @@ namespace DriveNation
             {
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<RentACarUser>>();
 
-                string email = "ivan.ivanov@gmail.com";
-                string progileName = "IvanIvanov4257";
-                string firstname = "Ivan";
-                string lastname = "Ivanov";
-                string password = "1Q2w3E4r5T!@#";
+                string email = "vyaraatanasova_v19@schoolmath.eu";
+                string progileName = "vyarkazvqrka";
+                string firstname = "Vyara";
+                string lastname = "Zvyarka";
+                string password = "35FH$#we4!";
                 string personal_id = "0636135584";
                 string phone = "+359123456789";
 

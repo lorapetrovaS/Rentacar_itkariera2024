@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DriveNation.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240416172600_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20240416184419_TestMigration")]
+    partial class TestMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
